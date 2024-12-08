@@ -1,0 +1,14 @@
+npm init -y
+npm install express mysql body-parser
+npm install dotenv
+npm install morgan
+npm install cors
+npm install mysql2
+npm install express-fileupload cloudinary
+
+middlewares/
+├── authMiddleware.js      // Para autenticación y autorización
+├── errorMiddleware.js     // Para manejo de errores
+├── loggingMiddleware.js   // Para registro de solicitudes
+└── globalMiddleware.js    // Configuración global
+
